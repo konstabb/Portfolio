@@ -1,4 +1,13 @@
 # TEE PELI TÄHÄN
+#This is a Python script for a simple game using the Pygame library. The game involves a character (referred to as "Robo") collecting cheese while avoiding monsters ("Hirvio"). Here's a brief overview of the script:
+
+#    The Hirvio class defines the behavior and movement of the monsters.
+#    The Robo class defines the behavior and movement of the player's character.
+#    The Peli class is the main game class that handles game initialization, game logic, collision detection, scoring, and rendering.
+#    The game runs in a loop where it updates the positions of the monsters and the player, checks for collisions, and renders the game state to the screen.
+#    The game ends when the player collects 20 pieces of cheese or collides with a monster.
+
+
 import pygame
 from random import randint
 import time
