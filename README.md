@@ -1,4 +1,4 @@
 # Portfolio
 My projects.
 
-I am sorry for the lack of comments in the code files.
+I am sorry for the insufficient commenting in the code files.
