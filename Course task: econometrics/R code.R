@@ -54,15 +54,6 @@ lmtest::coeftest(laajemmin, vcov.=hrob_kesk_virh)
 #othrace      3.307789   0.612599  5.3996  6.73e-08 ***
 
 
-sukupuoli <- c(rep(1, 60), rep(0, 40), rep(1, 40), rep(0, 60))
-
-# Ryhmä: 1 = koeryhmä, 0 = kontrolliryhmä
-ryhma <- c(rep(1, 100), rep(0, 100))
-
-setti = data.frame(men = sukupuoli, treatment = ryhma)
-
-malli <- lm(treatment ~ men, data = setti)
-hrob_kesk_virh <- sandwich::vcovHC(malli, type="HC1")
 lmtest::coeftest(malli, vcov.=hrob_kesk_virh)
 #            Estimate Std. Error t value  Pr(>|t|)
 #(Intercept) 0.400000   0.049237  8.1240 4.774e-14 ***
