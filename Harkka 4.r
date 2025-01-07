@@ -1,6 +1,6 @@
 
 
-aineisto <- readxl::read_excel("C:/Users/Omistaja/OneDrive - University of Helsinki/Taloustiede/Ekonometria II/Fertility_Small.xls")
+aineisto <- readxl::read_excel("PATH/Fertility_Small.xls")
 
 #a)
 perusOLS <- lm(weeksm1 ~ morekids, data = aineisto)
