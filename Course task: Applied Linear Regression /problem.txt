@@ -1,0 +1,11 @@
+The (hypothetical) data in the file give automobile stopping Distance in feet and Speed in mph for n = 62 trials of various automobiles (Ezekiel and Fox, 1959).
+
+7.6.1 Draw a scatterplot of Distance versus Speed. Explain why this graph supports fitting a quadratic regression model.
+
+7.6.2 Fit the quadratic model but with constant variance. Compute the score test for nonconstant variance for the alternatives that (a) variance depends on the mean; (b) variance depends on Speed; and (c) variance depends on Speed and Speed2. Is adding Speed2 helpful?
+
+7.6.3 Refit the quadratic regression model assuming Var(Distanc|Speed) = Speed σ2. Compare the estimates and their standard errors with the unweighted case.
+
+7.6.4 Based on the unweighted model, use a sandwich estimator of variance to correct for nonconstant variance. Compare with the results of the last subproblem.
+
+7.6.5 Fit the unweighted quadratic model, but use a case resampling bootstrap to estimate standard errors, and compare with the previous methods.
